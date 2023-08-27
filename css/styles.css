@@ -403,4 +403,5 @@ figure img {
   right: 0;
   bottom: 0;
   cursor: not-allowed;
+  transition: opacity 500ms;
 }
