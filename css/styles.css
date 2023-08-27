@@ -381,7 +381,7 @@ figure img {
 
 .is-hidden {
   pointer-events: none;
-  visibility: hidden;
+  visibility: none;
   opacity: 0;
 }
 .modal {
