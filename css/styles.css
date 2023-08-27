@@ -393,6 +393,7 @@ figure img {
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
     0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
   cursor: initial;
+  position: relative;
 }
 .backdrop {
   background-color: hsla(0, 0%, 0%, 0.5);
@@ -411,4 +412,8 @@ figure img {
   font-size: 0;
   background-color: var(--dairy);
   --color5: rgba(0, 0, 0, 0.1);
+  position: absolute;
+  cursor: pointer;
+  top: 24px;
+  right: 24px;
 }
