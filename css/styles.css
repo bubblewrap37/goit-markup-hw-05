@@ -67,6 +67,7 @@ body {
 .main-navigation a {
   text-decoration: none;
   color: var(--grey);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .main-navigation a:visited {
@@ -83,6 +84,7 @@ body {
   color: var(--slate);
   letter-spacing: 0.02em;
   line-height: 150%;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contact-information:last-child {
   margin-right: 0px;
@@ -127,6 +129,8 @@ body {
   padding: 16px 32px;
   margin-left: 480px;
   letter-spacing: 0.04em;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .order-button:hover {
@@ -305,6 +309,8 @@ footer {
   border-radius: 4px;
   padding: 12px 24px;
   letter-spacing: 0.04em;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .filter-button:hover,
 .filter-button:focus {
@@ -323,6 +329,7 @@ footer {
 .projects figure {
   margin: 0;
   border-bottom: 1px solid var(--cornflower);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .projects figure:hover {
