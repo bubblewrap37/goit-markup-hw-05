@@ -405,3 +405,10 @@ figure img {
   cursor: not-allowed;
   transition: opacity 500ms;
 }
+.close-button {
+  border: none;
+  padding: 0;
+  font-size: 0;
+  background-color: var(--dairy);
+  --color5: rgba(0, 0, 0, 0.1);
+}
